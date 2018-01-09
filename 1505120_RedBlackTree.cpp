@@ -154,7 +154,7 @@ class Tree{
             nodes* sibling=getSibling(parent);
             if(sibling==0 or sibling->color==black){
                 if(parent->left==root){
-                    if(parent->parent->left=parent) LL(root);
+                    if(parent->parent->left==parent) LL(root);
                     else LR(root);
                 }else{
                     if(parent->parent->left==parent) RL(root);
